@@ -199,7 +199,6 @@ const Menu = ({ changeColorMode }) => {
               </>
             )
           }
-          <button><Avatar />Upgrade to Plus <span>New</span></button>
           <button onClick={() => {
             if (settingRef?.current) {
               settingRef.current.classList.add("clicked")
